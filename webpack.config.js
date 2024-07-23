@@ -5,7 +5,7 @@ module.exports = {
   entry: "./src/main.js",
   plugins: [
     new HtmlWebpackPlugin({
-      title: "indix.html",
+      title: "index.html",
       template: "./src/index.html",
     }),
   ],
