@@ -6,28 +6,41 @@ body {
 }
 
 header {
-  display: flex;
-  align-items: center;
-  align-items: center;
-  justify-content: center;
-  padding: 30px 0px 30px 0px;
-  background-color: rgb(138, 185, 186);
+  padding: 30px 0px;
   margin-bottom: auto;
+  position: relative;
 }
 
-header > div#about-div {
+div#header-rotate {
+  position: absolute;
+  top: -80vh;
+  left: -50vw;
+  transform: rotate(-10deg);
+  width: 200vw;
+  height: 100vh;
+  background-color: rgb(119, 185, 255);
+}
+
+header div#header-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+header div#about-div {
   width: 60%;
   background-color: white;
   box-shadow: 2px 1px 20px 1px rgba(105, 105, 105, 0.38);
   padding-left: 10px;
 }
 
-header > div#about-div > h3 {
+header h3 {
   font-weight: normal;
   padding: 0px;
 }
 
-header > img {
+header img {
   width: auto;
   height: 300px;
   flex-shrink: 0;
@@ -36,6 +49,14 @@ header > img {
 
 main {
   margin: 10px auto 20px auto;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main h1 {
+  align-self: flex-start;
 }
 
 main > div:first-of-type {
