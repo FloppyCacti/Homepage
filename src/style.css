@@ -4,6 +4,19 @@ header {
 }
 
 header > img {
-  width: 160px;
+  width: auto;
+  height: 300px;
+  flex-shrink: 0;
+}
+
+main > div:first-of-type {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+div.animal-div > img {
+  width: 200px;
   height: auto;
 }
