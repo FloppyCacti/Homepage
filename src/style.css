@@ -37,8 +37,10 @@ main > div:first-of-type {
 }
 
 div.animal-div > img {
-  width: 200px;
-  height: auto;
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 40%;
 }
 
 footer {
