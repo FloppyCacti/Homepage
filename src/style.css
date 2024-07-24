@@ -36,7 +36,7 @@ main > div:first-of-type {
   gap: 20px;
 }
 
-main > div.animal-div {
+div.animal-div {
   width: 250px;
 }
 
