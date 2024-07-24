@@ -102,3 +102,7 @@ div#contact-image > img {
   width: auto;
   flex-shrink: 0;
 }
+
+footer h3 {
+  font-weight: normal;
+}
