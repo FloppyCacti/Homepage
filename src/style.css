@@ -8,6 +8,10 @@ header {
   align-items: center;
 }
 
+header > div#about-div {
+  width: 60%;
+}
+
 header > img {
   width: auto;
   height: 300px;
