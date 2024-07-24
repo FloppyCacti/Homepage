@@ -36,6 +36,10 @@ main > div:first-of-type {
   gap: 20px;
 }
 
+main > div.animal-div {
+  width: 250px;
+}
+
 div.animal-div > img {
   width: 250px;
   height: 200px;
