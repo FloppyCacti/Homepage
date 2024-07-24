@@ -20,3 +20,14 @@ div.animal-div > img {
   width: 200px;
   height: auto;
 }
+
+footer > div {
+  display: flex;
+  flex-direction: row;
+}
+
+div#contact-image > img {
+  height: 300px;
+  width: auto;
+  flex-shrink: 0;
+}
