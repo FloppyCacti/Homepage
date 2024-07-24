@@ -29,11 +29,16 @@ header > img {
   box-shadow: -2px 1px 20px 1px rgb(133, 133, 133);
 }
 
+main {
+  margin: auto;
+}
+
 main > div:first-of-type {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
+  width: 790px;
 }
 
 div.animal-div {
