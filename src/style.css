@@ -140,6 +140,10 @@ footer h3 {
   main h1 {
     padding-left: 50px;
   }
+
+  footer > div {
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
